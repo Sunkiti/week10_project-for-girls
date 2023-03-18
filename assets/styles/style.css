@@ -1,0 +1,392 @@
+@font-face {
+  src: url("/assets/fonts/Montserrat-Black.ttf");
+  /* url("") format("ttf"); */
+  font-family: "Montserrat";
+}
+
+/* < !-- Shahnoz Header_logo начало--> */
+.adress {
+  padding: 10px;
+  margin: 10px;
+  font-size: 10px;
+}
+.logo {
+    max-width:15%;
+}
+.col {
+  font-size: 80%;
+}
+.bilingual {
+  font-size: 10px;
+}
+.adress {
+  word-spacing: 0.5em;
+}
+.phone {
+  max-width: 6%;
+}
+.vk {
+  max-width: 20%;
+}
+.telegram {
+  max-width: 20%;
+}
+.button {
+  border-radius: 15px;
+  background-color: #8081bd;
+  color: white;
+  border: none;
+}
+.arrow1 {
+  width: 15px;
+  height: 15px;
+  border-top: 2px solid #000000 !important;
+  border-right: 2px solid #000000 !important;
+  margin: 16px 0 0 10px;
+  transform: rotate(135deg);
+  display: inline-block;
+  transition: 1s;
+}
+.arrow2 {
+  width: 15px;
+  height: 15px;
+  border-top: 2px solid #000000 !important;
+  border-right: 2px solid #000000 !important;
+  margin: 16px 0 0 10px;
+  transform: rotate(135deg);
+  display: inline-block;
+  transition: 1s;
+}
+.arrow3 {
+  width: 15px;
+  height: 15px;
+  border-top: 2px solid #000000 !important;
+  border-right: 2px solid #000000 !important;
+  margin: 16px 0 0 10px;
+  transform: rotate(135deg);
+  display: inline-block;
+  transition: 1s;
+}
+
+/* < !--Lena start--> */
+.footer__rectangle {
+  height: auto;
+  width: 100%;
+  background-color: #8081bd;
+  border-radius: 20px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.wrapper__text {
+  padding: 10%;
+}
+.footer__rectangle__text {
+  color: white;
+  font-weight: 700;
+  font-size: 3vw;
+}
+.footer__rectangle__text-small {
+  color: white;
+  font-weight: 500;
+  font-size: 2vw;
+}
+.footer__submit {
+  display: flex;
+}
+#telephone_2 {
+  background: #ffffff;
+  border-radius: 50px;
+  border: none;
+}
+.footer__submit__btn {
+  text-transform: uppercase;
+  background: #f6b31f;
+  border-radius: 50px;
+  border: none;
+}
+.footer__user {
+  color: white;
+  font-size: 1vw;
+}
+#schoolboy {
+  z-index: 2;
+  position: absolute;
+  padding-top: 10%;
+  padding-left: 15%;
+  max-height: 95%;
+}
+#student{
+  z-index: 2;
+  position: absolute;
+  padding-top: 10%;
+  padding-left: 15%;
+  max-height: 60%;
+  max-width: 100%; 
+}
+#schoolboyback,#studentback {
+  z-index: 1;
+  position: relative;
+  width: 100%;
+}
+.main__rectangle {
+  margin-top: 10%;
+  height: auto;
+  width: 100%;
+  background-color: #fff6d1;
+  border-radius: 20px;
+  margin-bottom: 5%;
+  margin-top: 10%;
+}
+.main__rectangle__text {
+  color: #334155;
+  font-weight: 700;
+  font-size: 3vw;
+}
+.main__rectangle__text-small {
+  color: #334155;
+  font-weight: 500;
+  font-size: 2vw;
+}
+.main__submit {
+  display: flex;
+}
+#telephone_3 {
+  background: #fddc4e;
+  border-radius: 50px;
+  border: none;
+}
+.main__submit__btn {
+  text-transform: uppercase;
+  background: #ea5d4a;
+  border-radius: 50px;
+  border: none;
+  color: white;
+}
+.main__user {
+  color: #334155;
+  font-size: 1vw;
+}
+.row__h3 {
+  color: #8081bd;
+  font-weight: 700;
+  font-size: 2vw;
+}
+.aboutcenter {
+  color: #334155;
+  font-weight: 500;
+  font-size: 1vw;
+}
+h4 {
+  color: #ea5d4a;
+  font-weight: 700;
+}
+@media (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+  .footer__vector, .main__vector {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: none;
+  }
+  .footer__rectangle {
+    width: 100%;
+  }
+  .footer__vector, .main__vector {
+    display: none;
+  }
+  .card-body {
+    max-height: 50px;
+  }
+}
+
+/* < !--Lena finish--> */
+
+/* < !-- Ana Header_main начало--> */
+.container_header_main {
+  margin-top: 3%;
+}
+
+.container_header_main_1 {
+  background-color: #fddc4e;
+}
+.container_header_main_2 {
+  background-color: #8081bd;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.header_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header_button {
+  background-color: #ea5d4a;
+  color: #ffffff;
+  width: 85%;
+  height: 30%;
+  border-radius: 50px;
+  border: none;
+}
+#name {
+  width: 85%;
+  height: 30%;
+  border-radius: 40px;
+}
+#Number {
+  width: 85%;
+  height: 30%;
+  border-radius: 40px;
+}
+
+#Mail {
+  width: 85%;
+  height: 30%;
+  border-radius: 40px;
+}
+h1 {
+  color: #334155;
+  width: 472px;
+  height: 117px;
+  font-weight: 700;
+  font-size: 5vw;
+  line-height: 117px;
+}
+.h2_header {
+  color: #334155;
+  font-size: 3vw;
+}
+.boy_main {
+  max-width: 160%;
+  max-width: 160%;
+}
+.girl_main {
+  max-width: 160%;
+  max-height: 100%;
+  position: relative;
+  right: 30%;
+}
+.form-check-label {
+  max-width: 85%;
+  max-height: 30%;
+}
+
+/* < !-- Ana Header_main конец--> */
+
+/* < !-- Shahnoz Header_main начало--> */
+.icons {
+  width: 5%;
+}
+
+.text {
+  font-weight: bold;
+  font-size: 60%;
+}
+/* < !-- Shahnoz Header_main конец--> */
+
+/* < !-- Shahnoz main начало--> */
+.row {
+  justify-content: center;
+}
+.textik {
+  color: #8081bd;
+  font-weight: 700;
+  font-size: 270%;
+  margin: 15px;
+}
+.card {
+  background-color: #ffdab9;
+}
+.img-fluid-1 {
+  background-color: white;
+  margin: 8px;
+  padding: 5px;
+  width: 100%;
+}
+.card-title-1 {
+  text-align: center;
+  margin: 2%;
+  font-size: 1vw;
+}
+.img-fluid {
+  background-color: white;
+  margin: 10px;
+  padding: 5px;
+  max-width: 200%;
+  height: 75%;
+}
+.card-title {
+  font-size: 1vw;
+  margin: 2%;
+}
+.adventages {
+  margin: 15px;
+}
+.icons-1 {
+  width: 20%;
+  border-radius: 10px;
+}
+.card-img-top {
+  width: 70%;
+  height: 70%;
+  margin: 15px;
+  border-radius: 10px;
+}
+.card-column__title {
+  color: #8081bd;
+  margin: 8px;
+}
+.card-column__text {
+  margin: 8px;
+}
+.textik1 {
+  color: #8081bd;
+  font-weight: 700;
+  font-size: 270%;
+  margin: 15px;
+}
+.card {
+  background-image: url(../image/background.svg);
+}
+.adventages-icons {
+  background-image: url(../image/background.svg);
+}
+/* < !-- Shahnoz main конец--> */
+
+/* < !-- Ana footer начало--> */
+.map {
+  max-width: 100%;
+}
+.footer_phone {
+  max-width: 10%;
+}
+.nav-link {
+  color: #000000;
+  font-size: small;
+}
+.logo_footer {
+  max-width: 50%;
+}
+.footer_phone_wrapper {
+  display: flex;
+}
+.vk_footer {
+  max-width: 10%;
+}
+.tg_footer {
+  max-width: 10%;
+}
+/* < !-- Ana footer конец--> */
